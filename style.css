@@ -44,6 +44,10 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc .container h2{
+    text-align: center;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -646,6 +650,7 @@ h4,
 h5,
 h6,
 p,
+blockquote,
 label,
 .btn,
 a {
@@ -653,6 +658,8 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+
+
 
 .container {
     max-width: 1000px;
@@ -707,6 +714,19 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+
+blockquote{
+    font-size: 20px;
+    line-height: 1.2;
+    border: 0px;
+    margin-bottom:  0px;
+}
+
+figcaption{
+    font-family: "helvetica";
+    font-size: 20px;
+    color:#575757; 
 }
 
 h3 {
@@ -818,11 +838,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
