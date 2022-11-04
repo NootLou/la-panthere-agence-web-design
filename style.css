@@ -729,6 +729,22 @@ figcaption{
     color:#575757; 
 }
 
+.header-logo{
+    height: 40px;
+    width: 217px;
+}
+
+.banner-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.portfolio-img{
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
